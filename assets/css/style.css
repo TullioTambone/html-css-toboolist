@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:aliceblue;
+}
+
+/*header*/
+header{
+    background-color: white;
+    padding: 1% 0 1% 1%;
+}
+
+#logo{
+    vertical-align: -130%;
+    height: 65px;
+}
+
+h1{
+    display: inline-block;
+}
+
+/*main*/
+
+nav{
+    background-color: lightyellow;
+    margin-top: 5%;
+    width: 80%;
+    margin: 0 auto;
+    padding: 3% 3% 2% 3%;
+    border-radius: 5px 5px 0 0;
+}
+
+/*bottoni nav*/
+.bottoni{
+    margin-left: 2%;
+    padding: 1%;
+    border-radius: 5px;
+}
+
+.sky{
+    background-color: skyblue;
+    color: white;
+}
+
+.trasparente{
+    border: 1px solid gray;
+    color: gray;
+}
+
+main{
+    padding-top: 6%;
+}
+
+.container{
+    background-color: lightgreen;
+    width: 80%;
+    margin: 1% auto; 
+}
