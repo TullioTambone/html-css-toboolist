@@ -1,3 +1,4 @@
+/*formattazione*/
 *{
     padding: 0;
     margin: 0;
@@ -8,6 +9,35 @@ body{
     background-color:aliceblue;
 }
 
+h2{
+    display: inline-block;
+}
+
+/*colori*/
+.sky{
+    background-color: skyblue;
+    color: white;
+}
+
+.trasparente{
+    border: 1px solid gray;
+    color: gray;
+}
+.purple{
+    background-color: purple;
+}
+
+.green{
+    background-color: green;
+}
+
+.pink{
+    background-color: pink;
+}
+
+.grass{
+    background-color: greenyellow;
+}
 /*header*/
 header{
     background-color: white;
@@ -23,6 +53,9 @@ h1{
     display: inline-block;
 }
 
+li{
+    margin-left: 1em;
+}
 /*main*/
 
 nav{
@@ -41,22 +74,48 @@ nav{
     border-radius: 5px;
 }
 
-.sky{
-    background-color: skyblue;
+nav a{
+    text-decoration: none;
+}
+#white{
     color: white;
 }
 
-.trasparente{
-    border: 1px solid gray;
+#gray{
     color: gray;
 }
+
+
+/*main*/
 
 main{
     padding-top: 6%;
 }
 
+/*container*/
 .container{
     background-color: lightgreen;
     width: 80%;
     margin: 1% auto; 
+    padding: 2% 0 2% 3%;
+    border-radius: 0 0 5px 5px;
+}
+
+.arrow{
+    font-size:small;
+}
+
+.block-list{
+    margin: 2%;
+}
+
+.status{
+    margin-left: 2%;
+    padding: 1%;
+    border-radius: 12px;
+}
+
+/*list*/
+li{
+    margin: 3%;
 }
