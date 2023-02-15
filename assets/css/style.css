@@ -55,12 +55,13 @@ header > a{
 }
 
 #logo{
-    vertical-align: -130%;
+    vertical-align: middle;
     height: 65px;
 }
 
 h1{
     display: inline-block;
+    vertical-align: middle;
 }
 
 li{
